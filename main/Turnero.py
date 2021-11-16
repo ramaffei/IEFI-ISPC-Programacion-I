@@ -6,7 +6,7 @@ class Agenda:
 
    def __init__(self, nombre, datos = pd.DataFrame([])):
       self.nombre = nombre
-      self.csv = nombre+'.csv'
+      self.csv = "csv\\"+nombre+'.csv'
       self.__guardadEnCsv(datos)
 
    def __guardadEnCsv(self, datos):

@@ -1,0 +1,137 @@
+,id_espe,Especialidad,Horario,Lunes 22/11,Martes 23/11,Miercoles 24/11,Jueves 25/11,Viernes 26/11
+0,1,Odontología,10:00:00,disponible,disponible,disponible,disponible,disponible
+1,1,Odontología,11:00:00,disponible,disponible,disponible,disponible,disponible
+2,1,Odontología,12:00:00,disponible,disponible,disponible,disponible,disponible
+3,1,Odontología,13:00:00,disponible,disponible,disponible,disponible,disponible
+4,1,Odontología,14:00:00,disponible,disponible,disponible,disponible,disponible
+5,1,Odontología,15:00:00,disponible,disponible,disponible,disponible,disponible
+6,1,Odontología,16:00:00,disponible,disponible,disponible,disponible,disponible
+7,2,Oftalmología,10:00:00,disponible,disponible,disponible,disponible,disponible
+8,2,Oftalmología,10:20:00,disponible,disponible,disponible,disponible,disponible
+9,2,Oftalmología,10:40:00,disponible,disponible,disponible,disponible,disponible
+10,2,Oftalmología,11:00:00,disponible,disponible,disponible,disponible,disponible
+11,2,Oftalmología,11:20:00,disponible,disponible,disponible,disponible,disponible
+12,2,Oftalmología,11:40:00,disponible,disponible,disponible,disponible,disponible
+13,2,Oftalmología,12:00:00,disponible,disponible,disponible,disponible,disponible
+14,2,Oftalmología,12:20:00,disponible,disponible,disponible,disponible,disponible
+15,2,Oftalmología,12:40:00,disponible,disponible,disponible,disponible,disponible
+16,2,Oftalmología,13:00:00,disponible,disponible,disponible,disponible,disponible
+17,2,Oftalmología,13:20:00,disponible,disponible,disponible,disponible,disponible
+18,2,Oftalmología,13:40:00,disponible,disponible,disponible,disponible,disponible
+19,2,Oftalmología,14:00:00,disponible,disponible,disponible,disponible,disponible
+20,2,Oftalmología,14:20:00,disponible,disponible,disponible,disponible,disponible
+21,2,Oftalmología,14:40:00,disponible,disponible,disponible,disponible,disponible
+22,2,Oftalmología,15:00:00,disponible,disponible,disponible,disponible,disponible
+23,2,Oftalmología,15:20:00,disponible,disponible,disponible,disponible,disponible
+24,2,Oftalmología,15:40:00,disponible,disponible,disponible,disponible,disponible
+25,2,Oftalmología,16:00:00,disponible,disponible,disponible,disponible,disponible
+26,2,Oftalmología,16:20:00,disponible,disponible,disponible,disponible,disponible
+27,2,Oftalmología,16:40:00,disponible,disponible,disponible,disponible,disponible
+28,3,Ginecología,10:00:00,disponible,disponible,disponible,disponible,disponible
+29,3,Ginecología,10:30:00,disponible,disponible,disponible,disponible,disponible
+30,3,Ginecología,11:00:00,disponible,disponible,disponible,disponible,disponible
+31,3,Ginecología,11:30:00,disponible,disponible,disponible,disponible,disponible
+32,3,Ginecología,12:00:00,disponible,disponible,disponible,disponible,disponible
+33,3,Ginecología,12:30:00,disponible,disponible,disponible,disponible,disponible
+34,3,Ginecología,13:00:00,disponible,disponible,disponible,disponible,disponible
+35,3,Ginecología,13:30:00,disponible,disponible,disponible,disponible,disponible
+36,3,Ginecología,14:00:00,disponible,disponible,disponible,disponible,disponible
+37,3,Ginecología,14:30:00,disponible,disponible,disponible,disponible,disponible
+38,3,Ginecología,15:00:00,disponible,disponible,disponible,disponible,disponible
+39,3,Ginecología,15:30:00,disponible,disponible,disponible,disponible,disponible
+40,3,Ginecología,16:00:00,disponible,disponible,disponible,disponible,disponible
+41,3,Ginecología,16:30:00,disponible,disponible,disponible,disponible,disponible
+42,4,Médico Clínico,10:00:00,disponible,disponible,disponible,disponible,disponible
+43,4,Médico Clínico,10:25:00,disponible,disponible,disponible,disponible,disponible
+44,4,Médico Clínico,10:50:00,disponible,disponible,disponible,disponible,disponible
+45,4,Médico Clínico,11:15:00,disponible,disponible,disponible,disponible,disponible
+46,4,Médico Clínico,11:40:00,disponible,disponible,disponible,disponible,disponible
+47,4,Médico Clínico,12:05:00,disponible,disponible,disponible,disponible,disponible
+48,4,Médico Clínico,12:30:00,disponible,disponible,disponible,disponible,disponible
+49,4,Médico Clínico,12:55:00,disponible,disponible,disponible,disponible,disponible
+50,4,Médico Clínico,13:20:00,disponible,disponible,disponible,disponible,disponible
+51,4,Médico Clínico,13:45:00,disponible,disponible,disponible,disponible,disponible
+52,4,Médico Clínico,14:10:00,disponible,disponible,disponible,disponible,disponible
+53,4,Médico Clínico,14:35:00,disponible,disponible,disponible,disponible,disponible
+54,4,Médico Clínico,15:00:00,disponible,disponible,disponible,disponible,disponible
+55,4,Médico Clínico,15:25:00,disponible,disponible,disponible,disponible,disponible
+56,4,Médico Clínico,15:50:00,disponible,disponible,disponible,disponible,disponible
+57,4,Médico Clínico,16:15:00,disponible,disponible,disponible,disponible,disponible
+58,5,Pediatría,10:00:00,disponible,,disponible,,disponible
+59,5,Pediatría,10:40:00,disponible,,disponible,,disponible
+60,5,Pediatría,11:20:00,disponible,,disponible,,disponible
+61,5,Pediatría,12:00:00,disponible,,disponible,,disponible
+62,5,Pediatría,12:40:00,disponible,,disponible,,disponible
+63,5,Pediatría,13:20:00,disponible,,disponible,,disponible
+64,5,Pediatría,14:00:00,disponible,,disponible,,disponible
+65,5,Pediatría,14:40:00,disponible,,disponible,,disponible
+66,5,Pediatría,15:20:00,disponible,,disponible,,disponible
+67,5,Pediatría,16:00:00,disponible,,disponible,,disponible
+68,1,Odontología,10:00:00,disponible,disponible,disponible,disponible,disponible
+69,1,Odontología,11:00:00,disponible,disponible,disponible,disponible,disponible
+70,1,Odontología,12:00:00,disponible,disponible,disponible,disponible,disponible
+71,1,Odontología,13:00:00,disponible,disponible,disponible,disponible,disponible
+72,1,Odontología,14:00:00,disponible,disponible,disponible,disponible,disponible
+73,1,Odontología,15:00:00,disponible,disponible,disponible,disponible,disponible
+74,1,Odontología,16:00:00,disponible,disponible,disponible,disponible,disponible
+75,2,Oftalmología,10:00:00,disponible,RodrigoMaffei,disponible,disponible,disponible
+76,2,Oftalmología,10:20:00,disponible,disponible,disponible,disponible,disponible
+77,2,Oftalmología,10:40:00,disponible,disponible,disponible,disponible,disponible
+78,2,Oftalmología,11:00:00,disponible,disponible,disponible,disponible,disponible
+79,2,Oftalmología,11:20:00,disponible,disponible,disponible,disponible,disponible
+80,2,Oftalmología,11:40:00,disponible,disponible,disponible,disponible,disponible
+81,2,Oftalmología,12:00:00,disponible,disponible,disponible,disponible,disponible
+82,2,Oftalmología,12:20:00,disponible,disponible,disponible,disponible,disponible
+83,2,Oftalmología,12:40:00,disponible,disponible,disponible,disponible,disponible
+84,2,Oftalmología,13:00:00,disponible,disponible,disponible,disponible,disponible
+85,2,Oftalmología,13:20:00,disponible,disponible,disponible,disponible,disponible
+86,2,Oftalmología,13:40:00,disponible,disponible,disponible,disponible,disponible
+87,2,Oftalmología,14:00:00,disponible,disponible,disponible,disponible,disponible
+88,2,Oftalmología,14:20:00,disponible,disponible,disponible,disponible,disponible
+89,2,Oftalmología,14:40:00,disponible,disponible,disponible,disponible,disponible
+90,2,Oftalmología,15:00:00,disponible,disponible,disponible,disponible,disponible
+91,2,Oftalmología,15:20:00,disponible,disponible,disponible,disponible,disponible
+92,2,Oftalmología,15:40:00,disponible,disponible,disponible,disponible,disponible
+93,2,Oftalmología,16:00:00,disponible,disponible,disponible,disponible,disponible
+94,2,Oftalmología,16:20:00,disponible,disponible,disponible,disponible,disponible
+95,2,Oftalmología,16:40:00,disponible,disponible,disponible,disponible,disponible
+96,3,Ginecología,10:00:00,disponible,disponible,disponible,disponible,disponible
+97,3,Ginecología,10:30:00,disponible,disponible,disponible,disponible,disponible
+98,3,Ginecología,11:00:00,disponible,disponible,disponible,disponible,disponible
+99,3,Ginecología,11:30:00,disponible,disponible,disponible,disponible,disponible
+100,3,Ginecología,12:00:00,disponible,disponible,disponible,disponible,disponible
+101,3,Ginecología,12:30:00,disponible,disponible,disponible,disponible,disponible
+102,3,Ginecología,13:00:00,disponible,disponible,disponible,disponible,disponible
+103,3,Ginecología,13:30:00,disponible,disponible,disponible,disponible,disponible
+104,3,Ginecología,14:00:00,disponible,disponible,disponible,disponible,disponible
+105,3,Ginecología,14:30:00,disponible,disponible,disponible,disponible,disponible
+106,3,Ginecología,15:00:00,disponible,disponible,disponible,disponible,disponible
+107,3,Ginecología,15:30:00,disponible,disponible,disponible,disponible,disponible
+108,3,Ginecología,16:00:00,disponible,disponible,disponible,disponible,disponible
+109,3,Ginecología,16:30:00,disponible,disponible,disponible,disponible,disponible
+110,4,Médico Clínico,10:00:00,disponible,disponible,disponible,disponible,disponible
+111,4,Médico Clínico,10:25:00,disponible,disponible,disponible,disponible,disponible
+112,4,Médico Clínico,10:50:00,disponible,disponible,disponible,disponible,disponible
+113,4,Médico Clínico,11:15:00,disponible,disponible,disponible,disponible,disponible
+114,4,Médico Clínico,11:40:00,disponible,disponible,disponible,disponible,disponible
+115,4,Médico Clínico,12:05:00,disponible,disponible,disponible,disponible,disponible
+116,4,Médico Clínico,12:30:00,disponible,disponible,disponible,disponible,disponible
+117,4,Médico Clínico,12:55:00,disponible,disponible,disponible,disponible,disponible
+118,4,Médico Clínico,13:20:00,disponible,disponible,disponible,disponible,disponible
+119,4,Médico Clínico,13:45:00,disponible,disponible,disponible,disponible,disponible
+120,4,Médico Clínico,14:10:00,disponible,disponible,disponible,disponible,disponible
+121,4,Médico Clínico,14:35:00,disponible,disponible,disponible,disponible,disponible
+122,4,Médico Clínico,15:00:00,disponible,disponible,disponible,disponible,disponible
+123,4,Médico Clínico,15:25:00,disponible,disponible,disponible,disponible,disponible
+124,4,Médico Clínico,15:50:00,disponible,disponible,disponible,disponible,disponible
+125,4,Médico Clínico,16:15:00,disponible,disponible,disponible,disponible,disponible
+126,5,Pediatría,10:00:00,disponible,,disponible,,disponible
+127,5,Pediatría,10:40:00,disponible,,disponible,,disponible
+128,5,Pediatría,11:20:00,disponible,,disponible,,disponible
+129,5,Pediatría,12:00:00,disponible,,disponible,,disponible
+130,5,Pediatría,12:40:00,disponible,,disponible,,disponible
+131,5,Pediatría,13:20:00,disponible,,disponible,,disponible
+132,5,Pediatría,14:00:00,disponible,,disponible,,disponible
+133,5,Pediatría,14:40:00,disponible,,disponible,,disponible
+134,5,Pediatría,15:20:00,disponible,,disponible,,disponible
+135,5,Pediatría,16:00:00,disponible,,disponible,,disponible
