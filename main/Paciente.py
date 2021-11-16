@@ -41,3 +41,16 @@ class Paciente:
 
       self.datosPacientes.append({'Nombre':self.nombre,'Apellido':self.apellido,'Edad':edad,'Género':genero,'DNI':dni,'Celular':cel})
       
+class Infante(Paciente):
+
+   def __init__(self, peso, estatura, padre, madre):
+       super().__init__()
+       self.peso = peso
+       self.estatura = estatura
+       self.madre = madre
+       self.padre = padre
+
+   def carnetVacunacion(self):
+      df = pd.DataFrame([], columns=['vacuna', 'dosis', 'fecha', 'proxima'])
+      return df
+   
