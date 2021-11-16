@@ -51,6 +51,6 @@ class Infante(Paciente):
        self.padre = padre
 
    def carnetVacunacion(self):
-      df = pd.DataFrame([], columns=['vacuna', 'dosis', 'fecha', 'proxima'])
+      df = pd.DataFrame([], columns=['id_vacuna','vacuna', 'dosis', 'horario'])
       return df
    

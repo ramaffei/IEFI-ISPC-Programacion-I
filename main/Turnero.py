@@ -110,7 +110,7 @@ class Especialidad:
 
    def traerDisponibles(self):
       df = self.turnero.leerDatos()
-      df = df[df['id_espe'].eq(self.id)]
+      df = df[df['id_vacuna'].eq(self.id)]
       df = df.loc[:, ['Horario']+self.diasDisponibles]
       return df
 
@@ -137,6 +137,98 @@ class Especialidad:
    def horario(self, dia):
       df = self.turnero.leerDatos()
       df = df[df['id_espe'].eq(self.id)]
+      df = df[['Horario']][df[dia] == 'disponible']
+      return df.reset_index(drop=True)
+
+class Vacunacion:
+  
+   diasDeLaSemana = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes']
+   horaApertura = '12:00'
+   horaCierre = '15:00'
+   duracionTurno = '00:30'
+
+   def __init__(self, id, vacuna, dosis):
+      self.id = id
+      self.vacuna = vacuna
+      self.dosis = dosis
+      self.__dia = ''
+
+   def establecerDias(self, dia = 0):
+      if dia == 0:
+         print("Debe establecer el dia de vacunacion")
+         for i in range(len(self.diasDeLaSemana)):
+            print (i+1,'-', self.diasDeLaSemana[i])
+         print("0 - SALIR")
+
+         diaInt = int(input("Por favor seleccione los días de atencion de la especialidad, o 0 (cero) para salir"))
+
+      self.__dia = dia
+      
+   def __formatSemana(self, anio, mes, semana):
+      calen = calendar.Calendar()
+      semana = calen.monthdayscalendar(anio, mes)[semana]
+      diaDelaSemana = self.diasDeLaSemana
+      dias = []
+      dias.append(diaDelaSemana[self.__dia]+' '+str(semana[self.__dia])+'/'+str(mes))
+      return dias
+
+   def establecerTurnos(self, mes, semana, dia = 0):
+      anio = 2021
+
+      if (self.__dia == ''):
+         self.establecerDias(dia)
+
+      self.fechaVacunacion = self.__formatSemana(anio, mes, semana)
+      
+      if not len(self.fechaVacunacion) == 0:
+         encabezados = ['id_vacuna','vacuna', 'dosis', 'Horario']+self.fechaVacunacion
+         inicio = datetime.datetime.strptime(self.horaApertura, '%H:%M')
+         turno = datetime.datetime.strptime(self.duracionTurno, '%H:%M')
+         time_zero = datetime.datetime.strptime('00:00', '%H:%M')
+         final = datetime.datetime.strptime(self.horaCierre, '%H:%M')
+         
+         final = final - turno + time_zero
+         
+         filas = []
+         while inicio <= final:
+            fila = [self.id, self.vacuna, self.dosis, inicio.time()]+['disponible']
+            inicio = inicio - time_zero + turno
+            filas.append(fila)
+
+         df = pd.DataFrame(filas, columns=encabezados)
+         #print(df)
+
+      self.turnero.insertarDatos(df)
+
+   def traerDisponibles(self):
+      df = self.turnero.leerDatos()
+      df = df[df['id_vacuna'].eq(self.id)]
+      df = df.loc[:, ['Horario']+self.fechaVacunacion]
+      return df
+
+   def asignarTurno(self, infante):
+      disponibles = self.traerDisponibles()
+      dias = disponibles.columns.values[1:]
+      for i in range(len(dias)):
+         print (str(i+1),'-',dias[i])
+      
+      dia = int(input("Selecciona un día para la vacunacion (ingresa el numero correspondiente a la opcion"))
+
+      diaElegido = dias[dia-1]
+
+      horariosDisponibles = self.horario(diaElegido)
+      print(horariosDisponibles)
+
+      horarioElegido = int(input("Selecciona el horario: ingresa el numero correspondiente a la opcion"))
+
+      horarioElegido = horariosDisponibles.loc[0, 'Horario']
+      
+
+      self.turnero.guardarTurno(self.id, infante, diaElegido, horarioElegido)
+
+   def horario(self, dia):
+      df = self.turnero.leerDatos()
+      df = df[df['id_vacuna'].eq(self.id)]
       df = df[['Horario']][df[dia] == 'disponible']
       return df.reset_index(drop=True)
 
