@@ -32,6 +32,7 @@ class Agenda:
       df = self.leerDatos()
       df.loc[(df['id_espe']==id_espe) & (df['Horario']==horario), dia] = paciente
       self.insertarDatos(df)
+      print('Turno Asignado')
 
 class Especialidad:
    diasDeLaSemana = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes']

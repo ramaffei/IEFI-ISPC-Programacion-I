@@ -11,7 +11,7 @@ if __name__ == "__main__":
    gineco = Especialidad('Ginecología', 3, 'Pedro Menuan', '00:30')
    clinico = Especialidad('Médico Clínico', 4, 'Alejandra Ilgaramo', '00:25')
 
-   turnero = Agenda('22 al 26 de noviembre')
+   turnero = Agenda('Noviembre')
 
    especialidades = [odonto, oftalmo, gineco, clinico,]
    for especialidad in especialidades:
@@ -53,4 +53,5 @@ if __name__ == "__main__":
    """)
 
    especialidades[espe_elegida].asignarTurno(paciente.nombreCompleto)
-   
+
+   turnero.mostrarDatos()
