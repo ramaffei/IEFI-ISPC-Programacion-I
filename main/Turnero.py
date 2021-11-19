@@ -110,7 +110,7 @@ class Especialidad:
 
    def traerDisponibles(self):
       df = self.turnero.leerDatos()
-      df = df[df['id_vacuna'].eq(self.id)]
+      df = df[df['id_espe'].eq(self.id)]
       df = df.loc[:, ['Horario']+self.diasDisponibles]
       return df
 
@@ -228,6 +228,7 @@ class Vacunacion:
 
    def horario(self, dia):
       df = self.turnero.leerDatos()
+      print(df)
       df = df[df['id_vacuna'].eq(self.id)]
       df = df[['Horario']][df[dia] == 'disponible']
       return df.reset_index(drop=True)
